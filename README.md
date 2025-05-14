@@ -58,6 +58,37 @@ Software engineering has helped me understand both what I do and how I think. It
 
 ### 🧪 Currently Working On
 
+#### 🔧 Service Automation Platform for Gaming Client
+
+**Goal:** Automate and scale a suite of gaming-related services for end-user consumption, with a flexible system for regional deployment and multi-level reselling.
+
+**Context:**  
+The client, a service provider in the gaming space, needed an end-to-end solution to:
+- Offer automated services to players via a website.
+- Provide an API for third-party resellers.
+- Enable other sellers to market and resell the same services via a shared platform.
+
+**Core Challenges:**  
+- Regional constraints (notably in Algeria) required careful routing of service operations for MENA and EU audiences.
+- The system had to coordinate across multiple environments (web, Windows, Android) while maintaining control, responsiveness, and stability.
+
+**Solution Overview:**
+- **Frontend:** WordPress site with Forminator, integrated via webhooks to backend services.
+- **Backend:** Python-based service orchestration using Flask, FastAPI, Redis Queue, and WebSockets.
+- **Relay Layer:** A Windows service communicates with Android clients via push triggers.
+- **Android App:** Kotlin app responds to backend signals and dispatches region-specific service interactions.
+- **Infrastructure:** DigitalOcean, Hostinger, Nginx, Ubuntu 20.04, GitHub, SSH.
+
+**Stack Highlights:**
+`Python`, `FastAPI`, `Flask`, `Redis`, `Selenium`, `Playwright`, `Kotlin`, `WordPress`, `WebSockets`, `REST APIs`, `tkinter`, `okhttp3`, `requests`
+
+**My Role:**
+- Designed the full system architecture from frontend to backend.
+- Developed Windows service and Android app for cross-platform message handling.
+- Handled deployment, scaling, and regional technical constraints.
+
+This project reflects my ability to build adaptive, real-world systems that are technically layered and operationally strategic.
+
 ---
 
 ### 📫 Let's Connect
